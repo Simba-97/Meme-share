@@ -10,6 +10,8 @@
         android:id="@+id/memeView"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -51,7 +53,6 @@
         android:text="@string/next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:backgroundTint="#FF5722"
         app:layout_constraintLeft_toRightOf="@id/guideline2"
         android:layout_marginBottom="10dp"
         android:onClick="nextMeme"/>
